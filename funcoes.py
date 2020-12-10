@@ -1,3 +1,6 @@
+# trabalhando com funções básicas em Python
+
+
 n1=10
 n2=9
 def somar():
@@ -23,9 +26,12 @@ def divisao():
     print("A divisão de " + str(n1) + " e " + str(n2) + " = " +str(r))
     
 
-somar()
-subtrair()
-multiplicar()
-divisao()
+def calculos():
+    somar()
+    subtrair()
+    divisao()
+    multiplicar()
 
+
+calculos()
 # eu precisei chamar a função, para então ele me mostrar seus objetos 
